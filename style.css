@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body{
+background-color: #ffffff
+}
+
+.grad{
+    height: 100vh;
+    background: linear-gradient(220deg, #7fcfef, #b16aeb);
+    }
+
+.uwu{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+}
+.uwubox{
+    height: 40vh;
+    width: 60vw;
+    margin: 5rem auto;
+    position: relative;
+    border-radius: 32px;
+    background-color: #000000;
+    opacity: 1;
+    text-align: center;
+
+    box-shadow:
+  13.8px 13.8px 2.7px rgba(0, 0, 0, 0.135),
+  33.3px 33.3px 6.5px rgba(0, 0, 0, 0.194),
+  62.6px 62.6px 12.3px rgba(0, 0, 0, 0.24),
+  111.7px 111.7px 21.9px rgba(0, 0, 0, 0.286),
+  208.9px 208.9px 40.9px rgba(0, 0, 0, 0.345),
+  500px 500px 98px rgba(0, 0, 0, 0.48)
+;
+}
+
+.uwufont{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 5vw;
+    text-align: center;
+
+}
+
+/* Animations */
+
+@keyframes move_right {
+    100%{transform: translateX(2000%)}
+}
